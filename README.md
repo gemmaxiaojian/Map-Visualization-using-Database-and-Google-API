@@ -1,10 +1,10 @@
 # Map-Visualization-using-Database-and-Google-API
 In this project, I used the Google geocoding API to clean up some user-entered geographic locations of university names and then placing the data on a Google Map. This project is one of the assignments of Using Database with Python, a course on Coursera.
 
-Note: Windows has difficulty in displaying UTF-8 characters in the console so for each command window you open, you may need to type the following command before running this code: chcp 65001
-http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
+A preview to where.html:
+![Preview](Preview.png)
 
-
+# Step by step
 You should install the SQLite browser to view and modify the databases from:
 http://sqlitebrowser.org/
 
@@ -82,3 +82,6 @@ myData = [
 This is a JavaScript list of lists.  The syntax for JavaScript list constants is very similar to Python so the syntax should be familiar to you.
 
 Simply open where.html in a browser to see the locations. You can hover over each map pin to find the location that the gecoding API returned for the user-entered input. If you cannot see any data when you open the where.html file, you might want to check the JavaScript or developer console for your browser.
+
+Note: Windows has difficulty in displaying UTF-8 characters in the console so for each command window you open, you may need to type the following command before running this code: chcp 65001
+http://stackoverflow.com/questions/388490/unicode-characters-in-windows-command-line-how
